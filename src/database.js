@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://juancastro:canserbero123@cluster0.hgltu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
-    useNewUrlParser: true,
+mongoose.connect('mongodb+srv://georgevalencia121:canserbero123@cluster0.fd1niqj.mongodb.net/?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 })
-    .then(db => console.log(`DB is connected`))
-    .catch(err => console.error(err));
+.then(db => console.log("zZzack Run on MongoDB 😴"))
+.catch(err => console.log(err))
